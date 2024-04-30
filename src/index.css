@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.paleta {
+  background-color: #197abe;
+  background-color: #636363;
+  background-color: #c1b8b1;
+  background-color: #80ffe1;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: #197abe;
+}
+
+button {
+  background-color: #197abe;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(10, 110, 182);
+}
+
+label {
+  color: black;
+}

@@ -1,0 +1,10 @@
+.custom-card {
+    border: 1.5px solid #4dd46d;
+    text-decoration: none; /* Evita que el título aparezca subrayado */
+}
+
+.custom-card:hover {
+    box-shadow: 0 4px 8px rgb(191, 161, 240); /* Agrega sombra al pasar el mouse */
+    transform: translateY(-2px); /* Levanta la tarjeta al pasar el mouse */
+    transition: all 0.3s ease; /* Agrega transición suave */
+}

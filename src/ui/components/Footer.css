@@ -1,0 +1,37 @@
+.enlace-sin-subrayado{
+    text-decoration: none;
+}
+
+.copyright-estilo{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.redes-estilo{
+    background-color: #BFBFBF;
+}
+
+.facebook-color{
+    color: #6F8BC7 ;
+}
+
+.facebook:hover {
+    transform: scale(1.2); /* Cambia el tamaño a 1.2 veces del original */
+    transition: transform 0.3s ease; /* Suavizar la transición del cambio de tamaño */
+}
+
+.horario-tabla{
+    color: #4f4f4f;
+    border-color: #666;
+}
+
+.footer-ancho {
+    width: 100%;
+  }
+
+  .footer-container {
+    width: 100%;
+    margin-top: 80px;
+    z-index: 1000;
+  }

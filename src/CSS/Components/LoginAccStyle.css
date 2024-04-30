@@ -1,0 +1,14 @@
+label {
+    margin-right: 1%;
+}
+
+.link-style {
+    cursor: pointer;
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: underline;
+  }
+  
+  .link-style:hover {
+    color: darkblue;
+  }
+  

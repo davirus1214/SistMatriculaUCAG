@@ -1,0 +1,108 @@
+.dragDrop-component .card {
+    padding: 10px;
+    box-shadow: 0 0 5px #ffdfdf;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dragDrop-component .card .top {
+    text-align: center;
+}
+
+.dragDrop-component .card p {
+    font-weight: bold;
+    color: #0086fe;
+}
+
+.dragDrop-component .card button {
+    outline: 0;
+    border: 0;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 8px 13px;
+    width: 100%;
+    background: #0086fe;
+}
+
+.dragDrop-component .card .drag-area {
+    height: 300px;
+    border-radius: 5px;
+    border: 2px dashed #0086fe;
+    color: #0086fe;
+    background: #f4f3f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-top: 10px;
+}
+
+.dragDrop-component .card .drag-area .visible {
+    font-size: 18px;
+}
+
+.dragDrop-component .card .select {
+    color: #5256ad;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.dragDrop-component .card .select:hover {
+    opacity: 0.6;
+}
+
+.dragDrop-component .card .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.dragDrop-component .card .container .image {
+    width: 185px; /* Ancho de la imagen */
+    height: 155px; /* Altura de la imagen */
+    position: relative;
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dragDrop-component .card .container .image img {
+    max-width: 100%; /* Ajustar imagen dentro del contenedor */
+    max-height: 100%; /* Ajustar imagen dentro del contenedor */
+    border-radius: 10px;
+}
+
+.dragDrop-component .card .container .image span {
+    position: absolute;
+    top: -2px;
+    right: 9px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dragDrop-component .card input,
+.dragDrop-component .card .drag-area .on-drop,
+.dragDrop-component .card .drag-area.dragover .visible {
+    display: none;
+}
+
+.dragDrop-component .delete {
+    z-index: 999;
+    color: #ff2d2d;
+}
+
+.dragDrop-component .delete:hover {
+    transform: scale(1.2); /* Cambiar el tamaño a 1.2 veces el original */
+    transition: transform 0.3s ease; /* Suavizar la transición del cambio de tamaño */
+}

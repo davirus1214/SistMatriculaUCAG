@@ -1,0 +1,38 @@
+body{
+  padding-top: 100px;
+}
+
+.navbar-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-text-white {
+    color: white;
+  }
+
+  .nav-link:hover {
+    color: #4dd46d;
+}
+
+.active {
+  color: rgb(191, 161, 240) !important;
+}
+
+.navbar-toggler-custom {
+  margin-right: 0; /* Ajusta el margen derecho a 0 */
+}
+
+.navbar-collapse-custom {
+  text-align: left;
+}
+
+
+  
